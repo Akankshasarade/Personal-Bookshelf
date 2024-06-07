@@ -1,0 +1,53 @@
+.App {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bookshelf {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+  }
+  
+  .bookshelf-title {
+    margin-bottom: 10px;
+  }
+  
+  .books-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  
+  .book {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .book-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edition-count {
+    font-size: 0.8em;
+    color: #aaa;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  

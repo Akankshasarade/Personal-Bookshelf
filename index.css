@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.book-results, .bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.bookshelf-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

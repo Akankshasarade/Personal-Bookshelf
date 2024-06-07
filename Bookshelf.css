@@ -1,0 +1,16 @@
+.bookshelf {
+    padding: 20px;
+}
+
+.books {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
